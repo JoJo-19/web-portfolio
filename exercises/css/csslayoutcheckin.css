@@ -1,0 +1,71 @@
+header {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.secondleft {
+    border-radius: 10px;
+    background-color: cadetblue;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15%;
+    grid-area: secondleft;
+}
+.secondright {
+    background-image: url("../../images/lalubd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    grid-area: secondright;
+}
+.extra_one {
+    background-color: peachpuff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: extra_one;
+    text-align: center;
+    align-items: center;
+}
+.extra_two {
+    background-image: url("../../images/lalu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    grid-area: extra_two;
+}
+.extra_three {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: extra_three;
+    justify-content: center;
+    align-items: center;
+}
+img.floatright {
+    float: right;
+    margin: 0;
+}
+.layout {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 350px 350px;
+    grid-gap: 10px;
+    grid-template-areas:
+        "header header header header header header"
+        "secondleft secondleft secondleft secondright secondright secondright"
+        "extra_one extra_one extra_two extra_two extra_three extra_three";
+}

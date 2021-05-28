@@ -1,0 +1,19 @@
+body {
+    font-family: Cambria;
+    background-color: darkgrey;
+}
+h1 {
+    color: black;
+    background-color: darkolivegreen;
+    padding: 20px;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {
+    color: darkorange;
+    background-color: lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+}

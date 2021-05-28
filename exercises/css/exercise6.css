@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background-color: #F7F7F7;
+}
+h1 {
+    color: #FC8907;
+    background-color: #1B3E94;
+    padding: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Stick', sans-serif;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6em;
+    font-family: "Courier New", Courier, monospace;
+}
+h2 {
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a:link {
+    color: #FC8907;
+    text-decoration: underline;
+}
+a:hover {
+    color: cyan;
+    text-decoration: none;
+}
+a:visited {
+    color: darkolivegreen;
+}
+a:active {
+    color: black;
+}

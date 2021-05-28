@@ -1,0 +1,33 @@
+body {
+    font-family: Calibri;
+    background-color: #f0e442;
+}
+h1 {
+    font-family: 'Akaya Telivigala', cursive;
+    color: #0072b2;
+    background-color: 	#d55e00;
+    text-transform: uppercase;
+    padding-left: 770px;
+}
+p {
+    font-family: 'Shippori Mincho B1', serif;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+h2 {
+    color: #D35FB7;
+    font-family: 'Stick', sans-serif;
+    padding: 30px;
+    text-transform: uppercase;
+}
+a:link {
+    color: #0C7BDC;
+    text-decoration: underline;
+}
+a:hover {
+    color: #1AFF1A;
+    text-decoration: none;
+}
+a:visited {
+    color: #0f0700;
+}
